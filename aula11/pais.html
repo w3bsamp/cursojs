@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pais</title>
+    <style>
+        body {
+            font: normal 15pt Arial;
+            text-align: center;
+            background-color: rgb(119, 90, 146);
+            color: white;
+            margin-top: 250px;
+        }
+        .botao {
+            font: 12pt Arial;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Insira abaixo seu país de origem:<br><input type="text" name="paistxt" id="paistxt">
+    <br><input type="button" value="Enviar" class="botao" onclick="procurar()">
+    <div id="res"></div>
+    <script>
+        function procurar() {
+            var p = document.getElementById('paistxt')
+            var res = document.getElementById('res')
+            var pais = p.value
+            res.innerHTML = (`Seu pais é <strong>${pais}</strong>`)
+            if (pais == 'Brasil') {
+                res.innerHTML += (`<br>Você é nacional do <strong>${pais}</strong> então não é estrangeiro.`)
+            } else {
+            res.innerHTML = (`Seu país é <strong>${pais}</strong>, você é considerado estrangeiro!`) }
+        }
+    </script>
+</body>
+</html>

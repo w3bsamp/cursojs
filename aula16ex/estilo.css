@@ -1,0 +1,43 @@
+body {
+    background: blueviolet;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+}
+
+select {
+    height: 200px;
+    width: 200px;
+}
+
+.botao {
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.botao:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,55 @@
+Variavel = var ou let ()
+Sinal de + = Contatenação
+
+Converter String > Numero {
+    parseInt(n) Numeros inteiros.
+    parseFloat(n) Numeros reais.
+    Number - Javascript decide.
+}
+
+Converter Numero > String {
+    String(n)
+    toString()
+}
+
+Formatando Strings (
+    var s = 'Javascript'
+    s.length //quantas caracteres a string tem
+    s.toUpperCase() //carac. maiusculo
+    s.toLowerCase() //carac. minusculo
+)
+
+Formatando Numeros {
+    var n1 = 1542.5
+    n1.toFixed(2) = 1542.50
+    n1.toFixed(2).replace('.', ',') = 1542,50
+    n1.toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'})
+}
+
+Operadores: Aritmeticos (+, -, *, /, %, **), Atribuição(+=, *=, %=, -=, **=), Relacionais(<, >, >=, <=, ==, !=), Logicos(!, &&, ||), Ternario(?, :).
+
+Arrays (Variavel Constate) {
+var num = [carro1, carro2, carro3] > conteudo valor
+                   (0       1       2) > indice chave
+
+Adicionar mais vaga > num [3] = 6 or num.push(7)
+num.length
+num.sort() > Ordem crescente
+
+var valores = [8, 1, 6, 9, 3]
+for (var pos = 0; pos < valores.length; pos++) {
+    console.log(`${pos} ${valores[pos]}`)
+}
+
+num.indexOf(7)
+}
+
+Funções {
+    Chamada (nome da função)
+    Parametro (dinheiro)
+    Ação
+    Retorno (resultado)
+}
+
+Proximo passo: continuar estudando (CURSO HTML5 e CSS) estudar funções, objetos, 
+modularização, expressões regulares, JSON, AJAX, NodeJS.
